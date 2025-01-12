@@ -96,7 +96,7 @@ const Injection = () => {
             </div>
             {isHelp1Open && (
                 <Help onClose={() => setHelp1Open(false)}>
-                    <h2 className="text-lg font-bold">Spiegazione 1</h2>
+                    <h2 className="text-lg font-bold">Concentration</h2>
                     <p className="mt-2 text-gray-600">
                         Insérez, s&apos;il vous plaît, la concentration du
                         médicament en <b>mg</b> et en <b>ml</b>.

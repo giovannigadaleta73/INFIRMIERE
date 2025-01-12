@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaTint, FaQuestionCircle } from "react-icons/fa"; // Icone
 import Help from "./Help"; // Componente Modal (da creare separatamente)
 
@@ -133,7 +133,7 @@ const Gouttes = () => {
 
             {isHelp1Open && (
                 <Help onClose={() => setHelp1Open(false)}>
-                    <h2 className="text-lg font-bold">Spiegazione 1</h2>
+                    <h2 className="text-lg font-bold">Concentration</h2>
                     <p className="mt-2 text-gray-600">
                         Insérez, s&apos;il vous plaît, la concentration du
                         médicament en <b>mg</b> et en <b>ml</b>.
@@ -143,7 +143,7 @@ const Gouttes = () => {
 
             {isHelp2Open && (
                 <Help onClose={() => setHelp2Open(false)}>
-                    <h2 className="text-lg font-bold">Spiegazione 2</h2>
+                    <h2 className="text-lg font-bold">Gouttes</h2>
                     <p className="mt-2 text-gray-600">
                         Habituellement, 1 ml contient 20 gouttes, mais si un
                         autre rapport est indiqué sur le médicament, modifiez-le
